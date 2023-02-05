@@ -14,10 +14,10 @@ def linearSearchModified(arr, target, index):
 
     returnList = linearSearchModified(arr, target, index + 1)
 
-    newList.append(returnList)
+    for i in returnList:
+        newList.append(i)
 
     return newList
-
 
 if __name__ == "__main__":
     print(linearSearchModified([3, 4, 77, 12, 56, 12, 6], 12, 0))
