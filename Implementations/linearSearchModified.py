@@ -1,7 +1,6 @@
 
 # What is a way that we can return an array list with answers from the individual function calls
 # WITHOUT passing the return array as a function parameter? 
-# Each function call creates its own list - how can we combine all the lists together at the end?
 
 def linearSearchModified(arr, target, index):
     
