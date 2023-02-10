@@ -4,4 +4,4 @@ def sumNToOne(N):
     return N + sumNToOne(N-1)
 
 if __name__ == "__main__":
-    print(sumNToOne(4)) # 4 + 3 + 2 + 1 
+    print(sumNToOne(4)) 
