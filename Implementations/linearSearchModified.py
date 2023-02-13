@@ -19,4 +19,4 @@ def linearSearchModified(arr, target, index):
     return newList 
 
 if __name__ == "__main__":
-    print(linearSearchModified([3, 4, 77, 12, 56, 12, 6], 12, 0))
+    print(linearSearchModified([3, 4, 77, 12, 56, 12, 6], 12, 0)) 
